@@ -2,12 +2,12 @@
 <testng-results skipped="0" failed="3" ignored="0" total="9" passed="6">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="36039" started-at="2020-09-10T09:51:02Z" finished-at="2020-09-10T09:51:38Z">
+  <suite name="Suite" duration-ms="55236" started-at="2020-09-10T14:56:20Z" finished-at="2020-09-10T14:57:15Z">
     <groups>
     </groups>
-    <test name="Test" duration-ms="36039" started-at="2020-09-10T09:51:02Z" finished-at="2020-09-10T09:51:38Z">
+    <test name="Test" duration-ms="55236" started-at="2020-09-10T14:56:20Z" finished-at="2020-09-10T14:57:15Z">
       <class name="Quantinsti.AddCourse">
-        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:1, instance:Quantinsti.AddCourse@d8355a8]" name="openbrowser" duration-ms="7272" started-at="2020-09-10T15:21:02Z" finished-at="2020-09-10T15:21:09Z">
+        <test-method status="PASS" signature="openbrowser(java.lang.String)[pri:1, instance:Quantinsti.AddCourse@d8355a8]" name="openbrowser" duration-ms="17702" started-at="2020-09-10T20:26:20Z" finished-at="2020-09-10T20:26:38Z">
           <params>
             <param index="0">
               <value>
@@ -18,7 +18,7 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- openbrowser -->
-        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Quantinsti.AddCourse@d8355a8]" name="Login" duration-ms="14584" started-at="2020-09-10T15:21:09Z" finished-at="2020-09-10T15:21:24Z">
+        <test-method status="PASS" signature="Login(java.lang.String, java.lang.String, java.lang.String)[pri:2, instance:Quantinsti.AddCourse@d8355a8]" name="Login" duration-ms="28485" started-at="2020-09-10T20:26:38Z" finished-at="2020-09-10T20:27:06Z">
           <params>
             <param index="0">
               <value>
@@ -39,11 +39,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Login -->
-        <test-method status="PASS" signature="NavigatetoCourse()[pri:3, instance:Quantinsti.AddCourse@d8355a8]" name="NavigatetoCourse" duration-ms="4408" started-at="2020-09-10T15:21:24Z" finished-at="2020-09-10T15:21:28Z">
+        <test-method status="PASS" signature="NavigatetoCourse()[pri:3, instance:Quantinsti.AddCourse@d8355a8]" name="NavigatetoCourse" duration-ms="941" started-at="2020-09-10T20:27:06Z" finished-at="2020-09-10T20:27:07Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- NavigatetoCourse -->
-        <test-method status="FAIL" signature="verifyNameAndPrice()[pri:4, instance:Quantinsti.AddCourse@d8355a8]" name="verifyNameAndPrice" duration-ms="1920" started-at="2020-09-10T15:21:28Z" finished-at="2020-09-10T15:21:30Z">
+        <test-method status="FAIL" signature="verifyNameAndPrice()[pri:4, instance:Quantinsti.AddCourse@d8355a8]" name="verifyNameAndPrice" duration-ms="2897" started-at="2020-09-10T20:27:07Z" finished-at="2020-09-10T20:27:10Z">
           <exception class="java.lang.AssertionError">
             <message>
               <![CDATA[expected [Learning Track: Sentiment Analysis in Trading] but found [Learning Track: undefined]]]>
@@ -56,7 +56,7 @@
 	at org.testng.Assert.assertEquals(Assert.java:115)
 	at org.testng.Assert.assertEquals(Assert.java:189)
 	at org.testng.Assert.assertEquals(Assert.java:199)
-	at Quantinsti.AddCourse.verifyNameAndPrice(AddCourse.java:40)
+	at Quantinsti.AddCourse.verifyNameAndPrice(AddCourse.java:36)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -88,19 +88,19 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- verifyNameAndPrice -->
-        <test-method status="PASS" signature="enrollAndVerifyCount()[pri:5, instance:Quantinsti.AddCourse@d8355a8]" name="enrollAndVerifyCount" duration-ms="2275" started-at="2020-09-10T15:21:30Z" finished-at="2020-09-10T15:21:33Z">
+        <test-method status="PASS" signature="enrollAndVerifyCount()[pri:5, instance:Quantinsti.AddCourse@d8355a8]" name="enrollAndVerifyCount" duration-ms="1578" started-at="2020-09-10T20:27:10Z" finished-at="2020-09-10T20:27:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enrollAndVerifyCount -->
-        <test-method status="PASS" signature="Amount()[pri:6, instance:Quantinsti.AddCourse@d8355a8]" name="Amount" duration-ms="65" started-at="2020-09-10T15:21:33Z" finished-at="2020-09-10T15:21:33Z">
+        <test-method status="PASS" signature="Amount()[pri:6, instance:Quantinsti.AddCourse@d8355a8]" name="Amount" duration-ms="62" started-at="2020-09-10T20:27:12Z" finished-at="2020-09-10T20:27:12Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- Amount -->
-        <test-method status="PASS" signature="veiwDetails()[pri:7, instance:Quantinsti.AddCourse@d8355a8]" name="veiwDetails" duration-ms="1661" started-at="2020-09-10T15:21:33Z" finished-at="2020-09-10T15:21:34Z">
+        <test-method status="PASS" signature="veiwDetails()[pri:7, instance:Quantinsti.AddCourse@d8355a8]" name="veiwDetails" duration-ms="1265" started-at="2020-09-10T20:27:12Z" finished-at="2020-09-10T20:27:13Z">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- veiwDetails -->
-        <test-method status="FAIL" signature="RemoveCourseAndApplyCoupon()[pri:8, instance:Quantinsti.AddCourse@d8355a8]" name="RemoveCourseAndApplyCoupon" duration-ms="720" started-at="2020-09-10T15:21:34Z" finished-at="2020-09-10T15:21:35Z">
+        <test-method status="FAIL" signature="RemoveCourseAndApplyCoupon()[pri:8, instance:Quantinsti.AddCourse@d8355a8]" name="RemoveCourseAndApplyCoupon" duration-ms="907" started-at="2020-09-10T20:27:13Z" finished-at="2020-09-10T20:27:14Z">
           <exception class="org.openqa.selenium.ElementNotInteractableException">
             <message>
               <![CDATA[element not interactable
@@ -108,8 +108,8 @@
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'TCHIETZELUX-PC', ip: '192.168.1.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TCHIET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56628}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 51d543f2ea53847cd06dad4be6523ddb]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TCHIET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55560}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b3bbec8520e32b1c52adfe50deb9b1b1]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
@@ -117,8 +117,8 @@ Session ID: 51d543f2ea53847cd06dad4be6523ddb]]>
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'TCHIETZELUX-PC', ip: '192.168.1.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TCHIET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56628}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 51d543f2ea53847cd06dad4be6523ddb
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TCHIET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55560}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b3bbec8520e32b1c52adfe50deb9b1b1
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -131,7 +131,7 @@ Session ID: 51d543f2ea53847cd06dad4be6523ddb
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
 	at org.openqa.selenium.remote.RemoteWebElement.sendKeys(RemoteWebElement.java:100)
-	at Quantinsti.AddCourse.RemoveCourseAndApplyCoupon(AddCourse.java:126)
+	at Quantinsti.AddCourse.RemoveCourseAndApplyCoupon(AddCourse.java:116)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -163,25 +163,25 @@ Session ID: 51d543f2ea53847cd06dad4be6523ddb
           <reporter-output>
           </reporter-output>
         </test-method> <!-- RemoveCourseAndApplyCoupon -->
-        <test-method status="FAIL" signature="signout()[pri:9, instance:Quantinsti.AddCourse@d8355a8]" name="signout" duration-ms="3069" started-at="2020-09-10T15:21:35Z" finished-at="2020-09-10T15:21:38Z">
-          <exception class="org.openqa.selenium.ElementNotInteractableException">
+        <test-method status="FAIL" signature="signout()[pri:9, instance:Quantinsti.AddCourse@d8355a8]" name="signout" duration-ms="1079" started-at="2020-09-10T20:27:14Z" finished-at="2020-09-10T20:27:15Z">
+          <exception class="org.openqa.selenium.ElementClickInterceptedException">
             <message>
-              <![CDATA[element not interactable
+              <![CDATA[element click intercepted: Element <div class="profile-pic-initials">...</div> is not clickable at point (1255, 35). Other element would receive the click: <div class="modal-bg"></div>
   (Session info: chrome=85.0.4183.102)
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'TCHIETZELUX-PC', ip: '192.168.1.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TCHIET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56628}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 51d543f2ea53847cd06dad4be6523ddb]]>
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TCHIET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55560}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b3bbec8520e32b1c52adfe50deb9b1b1]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementNotInteractableException: element not interactable
+              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <div class="profile-pic-initials">...</div> is not clickable at point (1255, 35). Other element would receive the click: <div class="modal-bg"></div>
   (Session info: chrome=85.0.4183.102)
 Build info: version: '3.12.0', revision: '7c6e0b3', time: '2018-05-08T14:04:26.12Z'
 System info: host: 'TCHIETZELUX-PC', ip: '192.168.1.38', os.name: 'Windows 7', os.arch: 'amd64', os.version: '6.1', java.version: '1.8.0_131'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TCHIET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:56628}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
-Session ID: 51d543f2ea53847cd06dad4be6523ddb
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 85.0.4183.102, chrome: {chromedriverVersion: 85.0.4183.87 (cd6713ebf92fa..., userDataDir: C:\Users\TCHIET~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:55560}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:virtualAuthenticators: true}
+Session ID: b3bbec8520e32b1c52adfe50deb9b1b1
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
 	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
@@ -194,7 +194,7 @@ Session ID: 51d543f2ea53847cd06dad4be6523ddb
 	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:543)
 	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:276)
 	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:83)
-	at Quantinsti.AddCourse.signout(AddCourse.java:142)
+	at Quantinsti.AddCourse.signout(AddCourse.java:127)
 	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
 	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
@@ -222,7 +222,7 @@ Session ID: 51d543f2ea53847cd06dad4be6523ddb
 	at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:76)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementNotInteractableException -->
+          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signout -->
