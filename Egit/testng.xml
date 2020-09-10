@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+<parameter name="browser" value="chrome" />
+<parameter name="URL" value="https://quantra.quantinsti.com"></parameter>
+<parameter name="Username" value="ahire.vrushali@gmail.com"/>
+<parameter name="Password" value="Quant1@123"></parameter>
+  <test name="Test">
+  
+    <classes>
+      <class name = "Quantinsti.AddCourse"/>
+      
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
