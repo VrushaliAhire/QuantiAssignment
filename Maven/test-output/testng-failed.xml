@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <parameter name="Username" value="ahire.vrushali@gmail.com"/>
+  <parameter name="browser" value="chrome"/>
+  <parameter name="URL" value="https://quantra.quantinsti.com"/>
+  <parameter name="Password" value="Quant1@123"/>
+  <test name="Test(failed)">
+    <classes>
+      <class name="Quantinsti.AddCourse">
+        <methods>
+          <include name="verifyNameAndPrice"/>
+          <include name="RemoveCourseAndApplyCoupon"/>
+          <include name="signout"/>
+        </methods>
+      </class> <!-- Quantinsti.AddCourse -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
