@@ -28,7 +28,7 @@ public class Assignment3 {
 	        }
 	        
 	    }
-		System.out.println(Additionfor3 + Additionfor5);
+		System.out.println("Addition of mutiple of 3 and 5"+Additionfor3 + Additionfor5);
 		
 		
 	}
