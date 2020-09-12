@@ -1,6 +1,7 @@
 package Quantinsti;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.NoSuchElementException;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
@@ -12,7 +13,8 @@ import org.testng.annotations.Test;
 
 public class Login {
 	WebDriver driver = null;
-
+	String path = System.getProperty("user.dir");	
+	
 	@Test (priority = 1)
 	@Parameters("browser")
 	public void openbrowser(String browser)
@@ -20,7 +22,8 @@ public class Login {
 		
 		if(browser.equalsIgnoreCase("chrome"))
 		{
-		System.setProperty("webdriver.chrome.driver", "C:\\Users\\tchietzelux\\Downloads\\chromedriver_win32\\newchromedriver.exe");
+		
+		System.setProperty("webdriver.chrome.driver", path+"\\src\\main\\java\\Driver\\newchromedriver.exe");
 	   	driver = new ChromeDriver();
 	   	driver.manage().window().maximize();
 	   	
@@ -28,7 +31,8 @@ public class Login {
 		else
 			if(browser.equalsIgnoreCase("firefox"))
 		{
-			System.setProperty("webdriver.gecko.driver", "C:\\Users\\tchietzelux\\Downloads\\geckodriver-v0.27.0-win64\\geckodriver.exe");
+			
+			System.setProperty("webdriver.chrome.driver", path+"\\src\\main\\java\\Driver\\geckodriver.exe");
 			driver = new FirefoxDriver();
 			driver.manage().window().maximize();
 			
@@ -37,7 +41,7 @@ public class Login {
 			else
 				if(browser.equalsIgnoreCase("internetexplorer"))
 				{
-					System.setProperty("webdriver.ie.driver", "C:\\Users\\tchietzelux\\Downloads\\IEDriverServer_x64_3.14.0\\IEDriverServer.exe");
+					System.setProperty("webdriver.chrome.driver", path+"\\src\\main\\java\\Driver\\IEDriverServer.exe");
 					driver = new InternetExplorerDriver();
 					driver.manage().window().maximize();
 				}
@@ -60,6 +64,17 @@ public class Login {
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='app']/div/div/div/div/form/div[2]/div[3]/div[3]/div/button")));
 		driver.findElement(By.xpath("//*[@id='app']/div/div/div/div/form/div[2]/div[3]/div[3]/div/button")).click();
 		wait.until(ExpectedConditions.elementToBeClickable(By.xpath("//*[@id='right-navigation']/ul/div[1]/li[5]/span/a")));
+		try
+		{
+		if(driver.findElement(By.xpath("//div[@class='web-push-container']")).isDisplayed())
+		{
+			driver.findElement(By.xpath("//div[@class='web-push-action-btns']/div[1]")).click();
+		}
+		}
+		catch(NoSuchElementException e)
+		{
+			
+		}
 				
 	}
 	

@@ -9,9 +9,10 @@
     <classes>
       <class name="Quantinsti.AddCourse">
         <methods>
-          <include name="verifyNameAndPrice"/>
           <include name="RemoveCourseAndApplyCoupon"/>
-          <include name="signout"/>
+          <include name="enrollAndVerifyCount"/>
+          <include name="Amount"/>
+          <include name="veiwDetails"/>
         </methods>
       </class> <!-- Quantinsti.AddCourse -->
     </classes>
